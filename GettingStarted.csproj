@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>10</LangVersion>
     <UseWPF>true</UseWPF>
-    <!--<EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>-->
+    <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
   </PropertyGroup>
 
   <ItemGroup>
