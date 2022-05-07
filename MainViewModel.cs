@@ -18,6 +18,6 @@ namespace GettingStarted
         }
         public ICommand NavigateCommand => new AsyncRelayCommand(Navigate);
 
-        private Task Navigate() => _presentationService.NavigateToFirstAsync();
+        private Task Navigate() => _presentationService.NavigateToFirstAsync("Hello Navigation Parameter");
     }
 }
